@@ -1,0 +1,21 @@
+{
+    "name": "grptx/yii2-loadcss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Rossetti",
+            "email": "r.rossetti@melogra.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require" : {
+        "yiisoft/yii2" : "*",
+        "rmrevin/yii2-minify-view": "^1.15",
+        "bower-asset/loadcss": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "grptx\\loadcss\\": "src"
+        }
+    }
+}
